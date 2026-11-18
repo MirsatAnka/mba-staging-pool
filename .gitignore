@@ -1,0 +1,41 @@
+# Raw datasets and archives (NEVER commit raw data)
+data/*
+data/*.xlsx
+data/*.xls
+data/*.csv
+data/*.zip
+data/*.gz
+data/*.parquet
+data/*.pkl
+!data/.gitkeep
+
+# Keep directory placeholders in results and report
+!results/figures/.gitkeep
+!results/tables/.gitkeep
+!report/.gitkeep
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments and environment variables
+venv/
+.venv/
+env/
+ENV/
+.env
+.env.*
+
+# OS and editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
